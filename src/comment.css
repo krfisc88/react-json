@@ -1,0 +1,17 @@
+.comment {
+    border: 1px solid gray;
+    border-radius: 1rem;
+    margin: 0 auto 1rem;
+    padding: 0.5rem 0.8rem;
+    width: 50%;
+
+}
+
+.comment-header__title {
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.comment-body::first-letter {
+    text-transform: capitalize;
+}
