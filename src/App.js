@@ -2,7 +2,7 @@ import "./app.css";
 import React, { useState, useEffect } from 'react';
 import Comment from './Comment';
 
-const App = () => {
+function App() {
 
     const [userData, setUserData] = useState([]);
 

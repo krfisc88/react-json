@@ -1,7 +1,7 @@
 import React from 'react';
 import "./comment.css";
 
-const Comment = ({ body, title, userId }) => {
+function Comment({ body, title, userId }) {
     return (
         <article className="comment">
             <header  className="comment-header">
